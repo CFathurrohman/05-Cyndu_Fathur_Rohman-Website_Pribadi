@@ -50,8 +50,8 @@ export default function Essays() {
             <div className="mt-16">
                 <h2 className="text-2xl">Esai</h2>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mt-6">
-                <EssayItem name="Esai 1" url="https://example.com" urlDisplay="App Store" imageSrc={image1} />
-                    <EssayItem name="Esai 2" url="https://example.com" urlDisplay="Google Play" imageSrc={image2} />
+                <EssayItem name="Esai 1" url="https://example.com" urlDisplay="View" imageSrc={image1} />
+                    <EssayItem name="Esai 2" url="https://example.com" urlDisplay="View" imageSrc={image2} />
                 </ul>
             </div>
         </div>
