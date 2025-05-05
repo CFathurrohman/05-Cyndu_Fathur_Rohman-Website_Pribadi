@@ -1,14 +1,15 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
+import { defaultMetadata } from "../utils/metadata";
 import Image, { StaticImageData } from "next/image";
 import image1 from "../../../public/images/image1.png";
 import image2 from "../../../public/images/image2.png";
 
 export const metadata: Metadata = {
-    title: "Proyek",
-    description: "Halaman proyek",
+    title: "Projects",
+    description: "Halaman untuk menampilkan proyek saya.",
     openGraph: {
-        title: "Proyek",
-        description: "Halaman proyek",
+        images: "https://example.com/default-image.jpg",
+        url: "https://example.com",
     },
 };
 
